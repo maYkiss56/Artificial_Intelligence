@@ -1,0 +1,30 @@
+.header {
+	padding-top: 24px;
+}
+.header__logo {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+.header__logo img {
+	width: 44px;
+	height: 57px;
+}
+.header__links {
+	margin-right: 135px;
+}
+.header__links ul{
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
+}
+.header__links a {
+	color: #fff;
+	text-transform: capitalize;
+	transition: .4s;
+}
+.header__links a:hover {
+	color: #3A68B8;
+}
+
+

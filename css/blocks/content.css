@@ -1,0 +1,30 @@
+.content {
+	padding-bottom: 170px;
+}
+.content__image {
+	margin-left: -140px;
+	width: 725px;
+	height: 669px;
+}
+.content__text {
+	width: 484px;
+}
+.content__text h2 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 130%;
+	color: #fff;
+	padding-bottom: 30px;
+}
+.content__text p {
+	width: 460px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 160%;
+	color: #fff;
+	opacity: .7;
+	padding-bottom: 50px;
+}
+.content__button {
+	width: 150px;
+}

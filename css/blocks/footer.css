@@ -1,0 +1,145 @@
+.footer__logo {
+	display: flex;
+	flex-direction: column;
+	padding-right: 32px;
+}
+.footer__information,
+.footer__menu,
+.footer__links,
+.footer__store {
+	height: 342px
+}
+.footer__store {
+	padding-top: 40px;
+}
+.footer__logo img {
+	width: 45px;
+	height: 58px;
+	padding-bottom: 8px;
+}
+.footer__text {
+	width: 272px;
+	padding-top: 10px;
+	padding-bottom: 43px;
+	font-size: 14px;
+	font-weight: 250;
+	line-height: 16px;
+	color: #fff;
+	opacity: 0.6;
+}
+.footer__contact {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	color: #fff;
+	transition: .2s;
+}
+.footer__contact:hover {
+	color: #3A68B8;
+}
+.contact__tb {
+	padding-top: 20px;
+	padding-bottom: 27px;
+}
+.footer__lb {
+	padding-bottom: 22px;
+}
+.footer__lt {
+	padding-top: 40px;
+}
+.footer__text--p {
+	padding-top: 25px;
+}
+.footer__link {
+	font-size: 14px;
+	font-weight: 250;
+	line-height: 16px;
+	color: #fff;
+	opacity: .6;
+	transition: .2s;
+}
+.footer__link:hover {
+	color: #3A68B8;
+	opacity: 1;
+}
+.footer__link--main {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	opacity: 1;
+}
+.footer__media {
+	width: 174px;
+	padding-top: 23px;
+	padding-bottom: 7px;
+}
+.footer__media ul {
+	display: flex;
+	justify-content: space-between;
+}
+.footer__language {
+	padding-top: 52px;
+	padding-left: 25px;
+	position: relative;
+}
+.footer__language a {
+	font-size: 14px;
+	font-weight: 250;
+	line-height: 16px;
+	color: #fff;
+	transition: .2s;
+}
+.footer__language a:hover {
+	color: #3A68B8;
+	opacity: 1;
+}
+.footer__contact--email,
+.footer__contact--number,
+.footer__contact--addres {
+	position: relative;
+	padding-left: 25px;
+}
+.footer__contact--email::before {
+	content: "";
+	background: url('/img/footer/email.svg');
+	position: absolute;
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 12px;
+	top: 7px;
+	left: 0;
+}
+.footer__contact--number::before {
+	content: "";
+	background: url('/img/footer/number.svg');
+	position: absolute;
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 15px;
+	top: 7px;
+	left: 0;
+}
+.footer__contact--addres::before {
+	content: "";
+	background: url('/img/footer/addres.svg');
+	position: absolute;
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 18px;
+	top: 7px;
+	left: 0;
+}
+.footer__language::before {
+	content: "";
+	background: url('/img/footer/language.svg');
+	position: absolute;
+	display: inline-block;
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 15px;
+	top: 56px;
+	left: 0;
+}

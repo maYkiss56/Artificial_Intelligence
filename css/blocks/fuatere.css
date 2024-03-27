@@ -1,0 +1,96 @@
+.fuatere {
+	padding-bottom: 170px;
+	overflow: hidden;
+}
+.fuatere__row {
+	max-width: 1520px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+}
+.fuatere__card {
+	width: 295px;
+	height: 311px;
+	border-radius: 10px;
+	background-color: #0f1724;
+	opacity: 0.7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: .3s ease-in-out;
+}
+.fuatere__card:hover {
+	border: 1px solid #fff;
+}
+.fuatere__image {
+	margin-top: 27px;
+	width: 76px;
+	height: 79px;
+}
+.fuatere__image--min {
+	margin-top: 27px;
+	width: 63px;
+	height: 59px;
+}
+.fuatere__title {
+	width: 263px;
+	padding: 20px 20px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 125%;
+	text-align: center;
+	color: #fff;
+	opacity: 0.7;
+	transition: .3s ease-in;
+}
+.fuatere__title--min {
+	width: 276px;
+	padding-top: 40px;
+	transition: .3s ease-in;
+}
+.fuatere__text {
+	padding: 0 30px 30px 30px;
+	width: 292px;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 160%;
+	text-align: center;
+	color: #fff;
+	opacity: 0.7;
+	transition: .3s ease-in;
+}
+.fuatere__card:hover .fuatere__title,
+.fuatere__card:hover .fuatere__title--min,
+.fuatere__card:hover .fuatere__text {
+	opacity: 1;
+}
+.fuatere__button {
+	width: 65px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+.swiper-pagination-bullet {
+	margin: auto;
+	width: 15px;
+	height: 15px;
+	backdrop-filter: blur(200px);
+	background-color: rgb(44, 54, 71);
+	border: 1px solid rgb(44, 54, 71);
+	opacity: 0.5;
+	border-radius: 100px;
+	transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.swiper-pagination-bullet-active {
+	width: 25px;
+	height: 20px;
+	background: rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+	transition:.3s;
+	opacity: 1;
+}
+.fuatere__width {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}

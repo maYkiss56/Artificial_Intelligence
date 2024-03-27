@@ -1,0 +1,24 @@
+.about {
+	padding-bottom: 170px;
+}
+.about__title {
+	width: 548px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 130%;
+	color: #fff;
+	padding-bottom: 40px;
+}
+.about__text {
+	padding-bottom: 20px;
+	width: 460px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 160%;
+	color: #fff;
+	opacity: 0.7;
+}
+.about__image {
+	width: 642px;
+	height: 551px;
+}
